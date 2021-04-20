@@ -1,0 +1,58 @@
+.kingBedRoom1{
+    height: 65%;
+    margin-left: 30%
+}
+
+.kingBedRoom2{
+    height: 76%;
+    width: 105%;
+}
+
+.features-room{
+    margin-top: 5%;
+}
+
+.hr{
+    border-bottom: 2px solid #000;
+    width: 45px;
+    margin: auto;
+    margin-bottom: 6%;
+}
+
+.booking-btn{
+    background: none;
+    border: none;
+    font-weight:600;
+}
+
+.booking-btn:hover{
+    transform: scale(1.1);
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    color: #ff6b81;
+}
+
+.features-room-text {
+    margin-top: 10%;
+}
+
+.king{
+    font-size: 65px;
+}
+
+.double-bed{
+    background-image: url(../../../../images/doubleBed2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    margin-left: 10%;
+    padding-left: 5%;
+}
+
+.double-bed p{
+    padding-right: 40%;
+}
+
+.double-text{
+    padding-top: 9%;
+}
