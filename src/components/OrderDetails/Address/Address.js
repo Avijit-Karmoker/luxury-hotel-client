@@ -32,7 +32,7 @@ const Address = () => {
             paymentCard
         };
 
-        fetch('http://localhost:5000/addBooking', {
+        fetch('https://nameless-ravine-04813.herokuapp.com/addBooking', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"

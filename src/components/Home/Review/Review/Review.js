@@ -7,7 +7,7 @@ const Review = () => {
   const [customerReview, setCustomerReview] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/reviews')
+    fetch('https://nameless-ravine-04813.herokuapp.com/reviews')
       .then(response => response.json())
       .then(data => setCustomerReview(data))
   }, []);

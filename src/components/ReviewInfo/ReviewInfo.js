@@ -8,7 +8,7 @@ const Reviews = () => {
     const onSubmit = data => {
         console.log(data)
     
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://nameless-ravine-04813.herokuapp.com/reviews', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"

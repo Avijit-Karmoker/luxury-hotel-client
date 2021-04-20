@@ -7,7 +7,7 @@ const AllRoom = () => {
     const [rooms, setRooms] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/rooms')
+        fetch('https://nameless-ravine-04813.herokuapp.com/rooms')
         .then((response) => response.json())
         .then(data => setRooms(data))
     }, []);

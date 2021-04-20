@@ -34,7 +34,7 @@ const AddRooms = () => {
       rent: data.rent,
     };
 
-    const url = `http://localhost:5000/addRoom`;
+    const url = `https://nameless-ravine-04813.herokuapp.com/addRoom`;
 
     fetch(url, {
       method: "POST",

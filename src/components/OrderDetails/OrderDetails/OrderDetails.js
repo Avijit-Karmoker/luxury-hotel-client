@@ -8,7 +8,7 @@ const OrderDetails = () => {
     const [book, setBook] = useState();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/orderDetails/${id}`)
+        fetch(`https://nameless-ravine-04813.herokuapp.com/orderDetails/${id}`)
             .then(response => response.json())
             .then(data => setBook(data))
     }, [])
