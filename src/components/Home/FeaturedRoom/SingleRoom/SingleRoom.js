@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory } from "react-router";
+import { useHistory } from "react-router-dom";
 import bedRoom1 from "../../../../images/featuresBedRoom1.jpg";
 import bedRoom2 from "../../../../images/featuresBedRoom2.jpg";
 

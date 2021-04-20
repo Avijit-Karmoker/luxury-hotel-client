@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from "./firebase.config";
 import google from "../../../images/google1.png";
 import { UserContext } from "../../../App";
-import { useContext } from "react/cjs/react.development";
 import { useHistory, useLocation } from "react-router";
 
 if (!firebase.apps.length) {
